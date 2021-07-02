@@ -6,7 +6,7 @@ import os
 app = Flask(__name__) 
 #load the saved model
 def load_model(): 
-    return pickle.load(open(‘iris_model.pkl’, ‘rb’)) #home 
+    return pickle.load(open(‘model_(2)[1].pkl’, ‘rb’)) #home 
 page@app.route(‘/’)
 def home(): 
     return render_template(‘index.html’) 
